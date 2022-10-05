@@ -101,8 +101,8 @@ START = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
 **➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**
 **──────────────**
-**➻ ᴜsᴀɢᴇ /chatbot [on/off]**
-**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**
+**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
+<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴs ғᴏʀ ʜᴇʟᴘ.||</b>
 """
 DEV_OP = [
     [
@@ -141,7 +141,7 @@ HELP_READ = f"""
 <u>**ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**</u>
 **ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:/**
 **──────────────**
-**©️ @Dev_Arora_0981**
+<b>||©️ @Lucifer_official2||</b>
 """
 BACK = [
      [
@@ -173,7 +173,7 @@ TOOLS_DATA_READ = f"""
 **──────────────**
 **➻ ᴜsᴇ `/ping` ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {BOT_NAME}**
 **──────────────**
-**©️ @Dev_Arora_0981**
+<b>||©️ @Lucifer_official27||</b>
 """
 MUSIC_BTN = [
       [    InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="ADMINS"),
@@ -196,11 +196,10 @@ MUSIC_BACK_BTN = [
 ]
 CHATBOT_READ = f"""
 <u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {BOT_NAME}**</u>
-**➻ ᴜsᴇ `/chatbot on` ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**
-**➻ ᴜsᴇ `/chatbot off` ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**
-**๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
+**➻ ᴜsᴇ `/chatbot` ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**
+**๏ ɴᴏᴛᴇ ➻ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀᴛʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
 **───────────────**
-**©️ @Dev_Arora_0981**
+<b>||©️ @Lucifer_official27||</b>
 """
 CHATBOT_BACK = [
         [     
@@ -320,16 +319,16 @@ SUDO_READ = """
 ➻ /leavebot [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ]
 ๏ ᴏʀᴅᴇʀ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʟᴇᴀᴠᴇ ᴛʜᴀᴛ ᴄʜᴀᴛ.
 
-➻ /approve 
+➻ .approve 
 ๏ ᴀᴘᴘʀᴏᴠᴇs ᴀ ᴘᴇʀsᴏɴ ᴛᴏ ᴘᴍ ᴀssɪsᴛᴀɴᴛ. [ʀᴇᴘʟʏ ɪɴ ɢʀᴘ!]
 
-➻ /disapprove
+➻ .disapprove
 ๏ ᴅɪsᴀᴘᴘʀᴏᴠᴇs ᴀ ᴘᴇʀsᴏɴ ɴᴏᴛ ᴛᴏ ᴘᴍ ᴀssɪsᴛᴀɴᴛ. [ʀᴇᴘʟʏ ɪɴ ɢʀᴘ!]
 
-➻ /bio
+➻ .bio
 ๏ sᴇᴛ ʙɪᴏ ᴏғ ᴀssɪsᴛᴀɴᴛ. [ᴛᴇxᴛ!] 
 
-➻ /pfp
+➻ .pfp
 ๏ sᴇᴛ ᴘғᴘ ᴏғ ᴀssɪsᴛᴀɴᴛ. [ʀᴇᴘʟʏ ᴀ ᴘʜᴏᴛᴏ!]
 """
 ABOUT_BTN = [
@@ -376,7 +375,7 @@ async def restart(client, m: Message):
         await umm.delete()
         await m.reply_photo(
         photo = random.choice(PHOTO),
-        caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [on/off]**\n**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**""",
+        caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help||</b>""",
         reply_markup=InlineKeyboardMarkup(DEV_OP),
     )
 @bot.on_callback_query()
