@@ -101,8 +101,8 @@ START = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
 **➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**
 **──────────────**
-**➻ ᴜsᴀɢᴇ /chatbot [on/off]**
-**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**
+**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
+<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>
 """
 DEV_OP = [
     [
@@ -141,7 +141,7 @@ HELP_READ = f"""
 <u>**ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**</u>
 **ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:/**
 **──────────────**
-**©️ @Dev_Arora_0981**
+<b>||©️ @Lucifer_official27||</b>
 """
 BACK = [
      [
@@ -173,7 +173,7 @@ TOOLS_DATA_READ = f"""
 **──────────────**
 **➻ ᴜsᴇ `/ping` ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {BOT_NAME}**
 **──────────────**
-**©️ @Dev_Arora_0981**
+<b>||©️ @Lucifer_official27||</b>
 """
 MUSIC_BTN = [
       [    InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="ADMINS"),
@@ -200,7 +200,7 @@ CHATBOT_READ = f"""
 **➻ ᴜsᴇ `/chatbot off` ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**
 **๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
 **───────────────**
-**©️ @Dev_Arora_0981**
+<b>||©️ @Lucifer_official27||</b>
 """
 CHATBOT_BACK = [
         [     
@@ -376,7 +376,7 @@ async def restart(client, m: Message):
         await umm.delete()
         await m.reply_photo(
         photo = random.choice(PHOTO),
-        caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [on/off]**\n**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**""",
+        caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [on/off]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
         reply_markup=InlineKeyboardMarkup(DEV_OP),
     )
 @bot.on_callback_query()
