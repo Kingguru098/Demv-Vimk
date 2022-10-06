@@ -1,1 +1,1 @@
-Vick: python3 lodu.py
+Vick: python3 madarchod.py
